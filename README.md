@@ -85,25 +85,21 @@ PORT=5000
 Open Terminal and Run:
 
 
-
-- **bash**
-# 1. git clone https://github.com/AFNAN7788/Employee-Management-System.git
+1. git clone https://github.com/AFNAN7788/Employee-Management-System.git
 cd employee-management-system
 
 
-- **bash**
-# 2. Install all dependencies (frontend + backend via workspaces)
+ 2. Install all dependencies (frontend + backend via workspaces)
 npm install
 
 
-- **bash**
-# 3. Database 
+
+ 3. Database 
 Configure Database Supabase
 
 
 
-- **bash**
-# 4. Run both servers
+ 4. Run both servers
 npm run dev
 ```
 
