@@ -81,18 +81,23 @@ PORT=5000
 
 ## Clone & install
 
-```bash
-# 1. git clone <your-repo-url>
+# Open terminal and run
+
+
+# 1. git clone  https://github.com/AFNAN7788/Employee-Management-System.git
 cd employee-management-system
 
 
-```bash
+
 # 2. Install all dependencies (frontend + backend via workspaces)
 npm install
 
 
 
-# 3. Configure Database Supabase
+# 3. Database 
+
+Configure Database Supabase
+
 
 
 
