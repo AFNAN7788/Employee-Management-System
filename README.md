@@ -87,24 +87,24 @@ Open Terminal and Run:
 
 1. git clone https://github.com/AFNAN7788/Employee-Management-System.git
 
-cd employee-management-system
+   cd employee-management-system
 
 
  2. Install all dependencies (frontend + backend via workspaces)
 
- npm install
+    npm install
 
 
 
  3. Database 
 
- Configure Database Supabase
+     Configure Database Supabase
 
 
 
  4. Run both servers
  
- npm run dev
+     npm run dev
 
 
 - **Frontend:** http://localhost:5173
