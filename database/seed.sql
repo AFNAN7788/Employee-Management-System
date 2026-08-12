@@ -27,7 +27,4 @@ INSERT INTO employees (employee_id, first_name, last_name, email, phone, departm
   ('EMP-010', 'Deepika', 'Joshi', 'deepika.joshi@company.com', '+91-9876543219', 'b2c3d4e5-f6a7-4b5c-8d7e-0f1a2b3c4d5e', 'Recruiter', 52000.00, '2024-01-15', 'Active', '1998-06-20', '45 Banjara Hills, Hyderabad, Telangana')
 ON CONFLICT (employee_id) DO NOTHING;
 
--- Seed a default admin user (password: admin123 - bcrypt hashed)
-INSERT INTO users (name, email, password, role) VALUES
-  ('Admin User', 'admin@company.com', '$2a$12$BEP.ckvBdTrrw.sC4tiAfOOkFCfFBbCVdhp.4OBIE6cnK3MiVpLja', 'admin')
-ON CONFLICT (email) DO NOTHING;
+
